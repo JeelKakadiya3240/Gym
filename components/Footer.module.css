@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--color-black);
+  background-color: #1a1a1a;
   color: var(--color-white);
   padding: 3rem 0 1.5rem;
   margin-top: auto;
@@ -69,6 +69,22 @@
 .bottom p {
   opacity: 0.7;
   font-size: 0.9rem;
+}
+
+.attribution {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.attribution a {
+  color: var(--color-white);
+  text-decoration: none;
+  transition: opacity 0.3s ease, color 0.3s ease;
+}
+
+.attribution a:hover {
+  opacity: 1;
+  color: var(--color-orange);
 }
 
 @media (max-width: 768px) {

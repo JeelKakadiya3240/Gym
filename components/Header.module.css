@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--color-black);
+  background-color: #1a1a1a;
   color: var(--color-white);
   padding: 1rem 0;
   position: sticky;
@@ -95,7 +95,7 @@
     top: 100%;
     left: 0;
     right: 0;
-    background-color: var(--color-black);
+    background-color: #1a1a1a;
     flex-direction: column;
     padding: 2rem;
     gap: 1.5rem;
