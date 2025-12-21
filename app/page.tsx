@@ -78,7 +78,7 @@ export default function Home() {
         <div className="container">
           <h2 className={styles.sectionTitle}>Get In Touch</h2>
           <div className={styles.contactContent}>
-            <p>Have questions or suggestions? We'd love to hear from you!</p>
+            <p>Have questions or suggestions? We&apos;d love to hear from you!</p>
             <a href="mailto:gymaday.app@gmail.com" className={styles.emailLink}>
               gymaday.app@gmail.com
             </a>

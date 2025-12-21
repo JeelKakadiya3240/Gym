@@ -69,11 +69,11 @@ export default function AboutUs() {
               <h2>Our Vision</h2>
               <p>
                 We envision a future where fitness is not limited by location, time, or 
-                commitment. GYMADAY aims to be India's largest fitness network, empowering 
+                commitment. GYMADAY aims to be India&apos;s largest fitness network, empowering 
                 millions to take control of their health journey.
               </p>
               <p>
-                Through continuous innovation and strategic partnerships, we're building an 
+                Through continuous innovation and strategic partnerships, we&apos;re building an 
                 ecosystem where every workout counts, every gym is accessible, and every 
                 fitness goal is achievable.
               </p>
@@ -81,7 +81,7 @@ export default function AboutUs() {
 
             <div className={styles.section}>
               <h2>Get In Touch</h2>
-              <p>Have questions or suggestions? We'd love to hear from you!</p>
+              <p>Have questions or suggestions? We&apos;d love to hear from you!</p>
               <a href="mailto:gymaday.app@gmail.com" className={styles.emailLink}>
                 gymaday.app@gmail.com
               </a>
