@@ -19,7 +19,7 @@ export default function Header() {
             height={50}
             priority
           />
-          <span className={styles.logoText}>GYMADAY</span>
+          <span className={styles.logoText}><span className={styles.brandName}>GYMADAY</span></span>
         </Link>
         
         <nav className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}>

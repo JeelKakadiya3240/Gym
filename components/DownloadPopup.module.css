@@ -90,6 +90,10 @@
   margin-bottom: 0.5rem;
 }
 
+.brandName {
+  color: var(--color-orange);
+}
+
 .popupTagline {
   font-size: 1.2rem;
   font-weight: 500;

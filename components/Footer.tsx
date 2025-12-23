@@ -7,7 +7,7 @@ export default function Footer() {
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.brand}>
-            <h3>GYMADAY</h3>
+            <h3><span className={styles.brandName}>GYMADAY</span></h3>
             <p className={styles.tagline}>Why Commit? Just Gym it.</p>
           </div>
 
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>&copy; 2025 GYMADAY. All rights reserved.</p>
+          <p>&copy; 2025 <span className={styles.brandName}>GYMADAY</span>. All rights reserved.</p>
           <p>Made in India</p>
         </div>
       </div>

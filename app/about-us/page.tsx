@@ -15,7 +15,7 @@ export default function AboutUs() {
             <div className={styles.section}>
               <h2>Who We Are</h2>
               <p>
-                GYMADAY is a revolutionary fitness platform that connects gym enthusiasts 
+                <span className={styles.brandName}>GYMADAY</span> is a revolutionary fitness platform that connects gym enthusiasts 
                 with premium fitness facilities across India. We believe that fitness should 
                 be flexible, accessible, and tailored to your lifestyle.
               </p>
@@ -69,7 +69,7 @@ export default function AboutUs() {
               <h2>Our Vision</h2>
               <p>
                 We envision a future where fitness is not limited by location, time, or 
-                commitment. GYMADAY aims to be India&apos;s largest fitness network, empowering 
+                commitment. <span className={styles.brandName}>GYMADAY</span> aims to be India&apos;s largest fitness network, empowering 
                 millions to take control of their health journey.
               </p>
               <p>

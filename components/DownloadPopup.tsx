@@ -63,7 +63,7 @@ export default function DownloadPopup() {
             />
           </div>
           
-          <h2 className={styles.popupTitle}>Download GYMADAY App</h2>
+          <h2 className={styles.popupTitle}>Download <span className={styles.brandName}>GYMADAY</span> App</h2>
           <p className={styles.popupTagline}>Why Commit? Just Gym it.</p>
           <p className={styles.popupMessage}>
             For a better experience and to book gyms instantly, download our mobile app!

@@ -35,6 +35,10 @@
   letter-spacing: 1px;
 }
 
+.brandName {
+  color: var(--color-orange);
+}
+
 .nav {
   display: flex;
   gap: 2rem;

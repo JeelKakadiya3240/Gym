@@ -56,7 +56,7 @@ export default function Home() {
         <div className="container">
           <div className={styles.heroGrid}>
             <div className={styles.heroContent}>
-              <h1 className={styles.heroTitle}>GYMADAY</h1>
+              <h1 className={styles.heroTitle}><span className={styles.brandName}>GYMADAY</span></h1>
               <p className={styles.heroTagline}>Why Commit? Just Gym it.</p>
               <p className={styles.heroDescription}>
                 A revolutionary fitness platform that connects gym enthusiasts with premium 
@@ -81,7 +81,7 @@ export default function Home() {
       {/* Benefits Section */}
       <section className={`section ${styles.benefits}`}>
         <div className="container">
-          <h2 className={styles.sectionTitle}>Why Choose GYMADAY?</h2>
+          <h2 className={styles.sectionTitle}>Why Choose <span className={styles.brandName}>GYMADAY</span>?</h2>
           <div className={styles.benefitsGrid}>
             <div className={styles.benefit}>
               <h3>Flexibility</h3>
@@ -124,7 +124,7 @@ export default function Home() {
             <div className={styles.downloadContent}>
               <h2 className={styles.downloadTitle}>Download Our App</h2>
               <p className={styles.downloadDescription}>
-                Get the full GYMADAY experience on your mobile device. Book gyms, 
+                Get the full <span className={styles.brandName}>GYMADAY</span> experience on your mobile device. Book gyms, 
                 manage your sessions, and stay fit on the go!
               </p>
               <div className={styles.downloadButtonsContainer}>

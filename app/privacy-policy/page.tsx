@@ -105,13 +105,13 @@ export default function PrivacyPolicy() {
               <h2>9. Contact Us</h2>
               <p>
                 If you have any questions about this Privacy Policy, please contact us 
-                through the Help & Support section in your profile or via the GYMADAY app.
+                through the Help & Support section in your profile or via the <span className={styles.brandName}>GYMADAY</span> app.
               </p>
             </div>
 
             <div className={styles.agreement}>
               <p>
-                <strong>By using GYMADAY, you agree to this Privacy Policy.</strong>
+                <strong>By using <span className={styles.brandName}>GYMADAY</span>, you agree to this Privacy Policy.</strong>
               </p>
             </div>
           </div>

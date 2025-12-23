@@ -113,9 +113,13 @@
 .heroTitle {
   font-size: 4rem;
   font-weight: 700;
-  color: var(--color-orange);
+  color: var(--color-black);
   margin-bottom: 1rem;
   letter-spacing: 2px;
+}
+
+.brandName {
+  color: var(--color-orange);
 }
 
 .heroTagline {

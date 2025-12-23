@@ -72,6 +72,10 @@
   color: var(--color-black);
 }
 
+.brandName {
+  color: var(--color-orange);
+}
+
 @media (max-width: 768px) {
   .hero {
     padding: 60px 0;

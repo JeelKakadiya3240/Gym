@@ -16,7 +16,7 @@ export default function TermsConditions() {
             <div className={styles.section}>
               <h2>1. Acceptance of Terms</h2>
               <p>
-                By accessing and using GYMADAY, you accept and agree to be bound by the 
+                By accessing and using <span className={styles.brandName}>GYMADAY</span>, you accept and agree to be bound by the 
                 terms and provisions of this agreement. If you do not agree to these terms, 
                 please do not use our services.
               </p>
@@ -25,7 +25,7 @@ export default function TermsConditions() {
             <div className={styles.section}>
               <h2>2. Service Description</h2>
               <p>
-                GYMADAY provides a platform for booking gym sessions and managing fitness 
+                <span className={styles.brandName}>GYMADAY</span> provides a platform for booking gym sessions and managing fitness 
                 activities. We connect users with partner gyms to facilitate convenient 
                 bookings and payments.
               </p>
@@ -57,7 +57,7 @@ export default function TermsConditions() {
 
             <div className={styles.section}>
               <h2>5. Wallet and Transactions</h2>
-              <p>Your GYMADAY wallet:</p>
+              <p>Your <span className={styles.brandName}>GYMADAY</span> wallet:</p>
               <ul>
                 <li>Can be funded through approved payment methods</li>
                 <li>Is used for gym bookings and payments</li>
@@ -92,7 +92,7 @@ export default function TermsConditions() {
 
             <div className={styles.section}>
               <h2>8. Liability and Disclaimers</h2>
-              <p>GYMADAY is a booking platform. We are not responsible for:</p>
+              <p><span className={styles.brandName}>GYMADAY</span> is a booking platform. We are not responsible for:</p>
               <ul>
                 <li>Injuries or accidents at gym facilities</li>
                 <li>Quality of gym equipment or services</li>
@@ -105,14 +105,14 @@ export default function TermsConditions() {
               <h2>9. Cancellations and Refunds</h2>
               <p>
                 Cancellation policies are determined by individual gym partners. Refunds, 
-                if applicable, are processed to your GYMADAY wallet within 5-7 business days.
+                if applicable, are processed to your <span className={styles.brandName}>GYMADAY</span> wallet within 5-7 business days.
               </p>
             </div>
 
             <div className={styles.section}>
               <h2>10. Intellectual Property</h2>
               <p>
-                All content, features, and functionality of GYMADAY are owned by us and 
+                All content, features, and functionality of <span className={styles.brandName}>GYMADAY</span> are owned by us and 
                 protected by intellectual property laws. You may not copy, modify, or 
                 distribute our content without permission.
               </p>
@@ -139,14 +139,14 @@ export default function TermsConditions() {
               <h2>13. Contact Information</h2>
               <p>
                 For questions about these Terms & Conditions, please contact us through the 
-                Help & Support section in your profile or via the GYMADAY app.
+                Help & Support section in your profile or via the <span className={styles.brandName}>GYMADAY</span> app.
               </p>
             </div>
 
             <div className={styles.agreement}>
               <p>
                 <strong>
-                  By using GYMADAY, you acknowledge that you have read, understood, and 
+                  By using <span className={styles.brandName}>GYMADAY</span>, you acknowledge that you have read, understood, and 
                   agree to be bound by these Terms & Conditions.
                 </strong>
               </p>
